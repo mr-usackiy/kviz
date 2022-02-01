@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="fonts/font.css">
+</head>
+
+<body>
+    <div class="kviz">
+        <div class="kviz__wrapper">
+            <p class="kviz__wrapper-title">Тест пройден на <span class="percent"> </span>%</p>
+            <div class="kviz_progress-form">
+                <div id="scale" class="kviz_progress-scale"></div>
+            </div>
+            <div class="kviz__slider">
+                <p class="kviz__content-counter"> Вопрос <span class="number"> 1 </span>из<span class="number_2"> 7 </span></p>
+                <div class="kviz__content">    
+                    <h2 class="kviz__content-quastion">Где вы хотите сделать ремонт?</h2>
+                    <form action="#" class="kviz__gallery" id="kviz__gallery">
+                        <div class="kviz__gallery-wrap1">
+                            <div class="kviz__gallery-column">
+                                <img id="kviz_img" src="images/apartment.jpg" alt="apartment">
+                                <input type="checkbox" name="apartment">
+                                <div id="kviz_img-icon" class="kviz_img-icon"></div>
+                                <p>Квартира</p>
+                            </div>
+                            <div class="kviz__gallery-column">
+                                <img id="kviz_img" src="images/ofice.jpg" alt="ofice">
+                                <input type="checkbox" name="ofice">
+                                <div id="kviz_img-icon" class="kviz_img-icon"></div>
+                                <p>Офис</p>
+                            </div>
+                            <div class="kviz__gallery-column">
+                                <img id="kviz_img" src="images/cottage.jpg" alt="cottage">
+                                <input type="checkbox" name="cottage">
+                                <div id="kviz_img-icon" class="kviz_img-icon"></div>
+                                <p>Коттедж</p>
+                            </div>
+                            <div class="kviz__gallery-column">
+                                <img id="kviz_img" src="images/other.jpg" alt="other">
+                                <input type="checkbox" name="other">
+                                <div id="kviz_img-icon" class="kviz_img-icon"></div>
+                                <p>Другое</p>
+                            </div>
+                        </div>
+                        <div class="kviz__gallery-wrap2">
+                            <button id="btn2" class="btn">назад</button>
+                            <button id="btn" class="btn" type="submit"> далее</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/jquery.spincrement.min.js"></script>
+<!--     <script src="js/custom.js"></script> -->
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
